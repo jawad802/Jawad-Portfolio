@@ -16,7 +16,7 @@ const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="mb-10 max-w-2xl font-Ovo mx-auto text-justify"
+          className="mb-10 max-w-2xl font-Ovo mx-auto text-base text-justify"
         >
           Hi I'm Syed Jawad a website developer with a strong understanding of
           both frontend and backend development, along with practical

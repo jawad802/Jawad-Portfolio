@@ -82,7 +82,7 @@ const Work = () => {
                 <h3 className="text-xl font-semibold text-white mb-3 font-Ovo">
                   {project.title}
                 </h3>
-                <p className="text-sm text-slate-300 leading-relaxed font-Ovo mb-6">
+                <p className="text-base text-slate-300 leading-relaxed font-Ovo mb-6">
                   {project.description}
                 </p>
 
@@ -91,7 +91,7 @@ const Work = () => {
                   {project.tech.map((item, tIdx) => (
                     <span
                       key={tIdx}
-                      className="px-2.5 py-1 text-xs font-medium bg-slate-800 text-blue-400 border border-slate-700/60 rounded-md"
+                      className="px-2.5 py-1 text-sm font-medium bg-slate-800 text-blue-400 border border-slate-700/60 rounded-md"
                     >
                       {item}
                     </span>
@@ -106,7 +106,7 @@ const Work = () => {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors group/link"
+                className="inline-flex items-center gap-2 text-lg font-medium text-blue-400 hover:text-blue-300 transition-colors group/link"
               >
                 Live Preview
                 <span className="group-hover/link:translate-x-1 transition-transform">

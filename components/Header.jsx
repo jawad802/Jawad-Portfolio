@@ -32,7 +32,7 @@ const Header = () => {
       </h3>
 
       {/* Main Headline */}
-      <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-Ovo text-gray-900 dark:text-white leading-tight tracking-tight">
+      <h1 className="text-4xl sm:text-6xl lg:text-7xl font-semibold font-Ovo text-gray-900 dark:text-white leading-tight tracking-tight">
         Full-Stack Web Developer
       </h1>
 

@@ -15,7 +15,7 @@ const Services = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
         viewport={{ once: true }}
-        className='max-w-2xl mx-auto mt-4 mb-12 font-Ovo text-center text-slate-300 leading-relaxed'
+        className='max-w-2xl mx-auto mt-4 mb-12 font-Ovo text-justify sm:text-center text-slate-300 leading-relaxed'
       >
         I offer comprehensive web development services ranging from responsive frontend interfaces to scalable backend APIs, WordPress customization, and Figma design conversions.
       </motion.p>
