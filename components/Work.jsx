@@ -1,4 +1,4 @@
-import { assets } from "@/assets/assets";
+
 import React from "react";
 import { motion } from "motion/react";
 
